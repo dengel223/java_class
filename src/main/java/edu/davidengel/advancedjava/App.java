@@ -13,6 +13,7 @@ public class App
     {
 
         //setup data
+        //better injection code can be used here
         Cpu cpu = new Cpu("Intel", 200.0d, 4.1);
         Motherboard motherboard = new Motherboard("Intel",300.0d);
         PowerSupply powerSupply = new PowerSupply("Corsair",650,400.0d);
